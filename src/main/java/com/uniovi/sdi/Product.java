@@ -4,6 +4,11 @@ public class Product {
     private String name;
     private String image;
     private float price;
+
+    public Product(){
+        //empty
+    }
+
     public Product(String name, String image, float price) {
         this.name = name;
         this.image = image;

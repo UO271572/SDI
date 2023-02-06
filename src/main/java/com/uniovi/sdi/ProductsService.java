@@ -5,6 +5,7 @@ import java.util.List;
 import com.db4o.Db4oEmbedded;
 import com.db4o.ObjectContainer;
 
+
 public class ProductsService {
 
     public List<Product> getProducts() {
